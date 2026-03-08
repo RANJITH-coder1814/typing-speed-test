@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Typing Speed Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h1>Typing Speed Test ⌨️</h1>
+
+<p id="paragraph">
+The quick brown fox jumps over the lazy dog. Practice typing this sentence as fast as you can to improve your typing speed and accuracy.
+</p>
+
+<textarea id="input" placeholder="Start typing here..."></textarea>
+
+<div class="stats">
+<p>Time Left: <span id="time">60</span>s</p>
+<p>Mistakes: <span id="mistakes">0</span></p>
+<p>WPM: <span id="wpm">0</span></p>
+</div>
+
+<button onclick="resetTest()">Restart</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
